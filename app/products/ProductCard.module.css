@@ -1,0 +1,49 @@
+.card {
+  width: 25rem;
+  padding: 1.5rem 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card span {
+  margin: 0.25rem 0;
+  padding: 0.25rem 1rem;
+
+  display: block;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(146, 33, 146);
+  text-decoration: none;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.card a:hover {
+  color: lime;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

@@ -1,0 +1,41 @@
+.article {
+  width: 70%;
+  padding: 1.5rem 1rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px black;
+}
+
+.article header {
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.article h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.article p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.article span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
